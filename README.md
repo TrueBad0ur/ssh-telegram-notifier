@@ -5,7 +5,7 @@ This script allow you to get notified on telegram everytime someone login to a s
 ## How it works
 Every time an user login, /etc/ssh/sshrc is executed (see man ssh). This sshrc will curl a message to your custom bot with basic information about login.
 ## Screenshot
-![sshnotify](https://user-images.githubusercontent.com/20320073/36080019-23c03c16-0f8a-11e8-8fb1-2079dab1de15.png)
+![sshnotify](https://github.com/TrueBad0ur/ssh-telegram-notifier/blob/master/preview.png)
 ## Setup
 - Contact @BotFather and create a new bot.
 - Write down your token and use it in variable TELEGRAM_BOT_TOKEN
